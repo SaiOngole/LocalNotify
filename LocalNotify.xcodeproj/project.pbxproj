@@ -21,6 +21,7 @@
 		ACE601C81900256800040DDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE601AA1900256800040DDB /* UIKit.framework */; };
 		ACE601D01900256800040DDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACE601CE1900256800040DDB /* InfoPlist.strings */; };
 		ACE601D21900256800040DDB /* LocalNotifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE601D11900256800040DDB /* LocalNotifyTests.m */; };
+		ACE601DC190027D200040DDB /* bell_tree.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACE601DB190027D200040DDB /* bell_tree.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		ACE601CD1900256800040DDB /* LocalNotifyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalNotifyTests-Info.plist"; sourceTree = "<group>"; };
 		ACE601CF1900256800040DDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACE601D11900256800040DDB /* LocalNotifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalNotifyTests.m; sourceTree = "<group>"; };
+		ACE601DB190027D200040DDB /* bell_tree.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell_tree.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		ACE601AD1900256800040DDB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ACE601DB190027D200040DDB /* bell_tree.mp3 */,
 				ACE601AE1900256800040DDB /* LocalNotify-Info.plist */,
 				ACE601AF1900256800040DDB /* InfoPlist.strings */,
 				ACE601B21900256800040DDB /* main.m */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACE601BF1900256800040DDB /* Images.xcassets in Resources */,
+				ACE601DC190027D200040DDB /* bell_tree.mp3 in Resources */,
 				ACE601B11900256800040DDB /* InfoPlist.strings in Resources */,
 				ACE601BA1900256800040DDB /* Main.storyboard in Resources */,
 			);
